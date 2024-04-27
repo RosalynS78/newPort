@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px darkgoldenrod; }
+      border: solid 3px fuchsia; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: darkgoldenrod; }
+      color: fuchsia; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: darkblue;
+      color: yellowgreen;
         transform: scale(1.25)
 }
 
@@ -112,7 +112,8 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  text-shadow: 1px 1px 2px black; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -134,7 +135,8 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: darkgoldenrod;
+  color: fuchsia;
+  text-shadow: 1px 1px 2px black;
 
  }
 
@@ -146,7 +148,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: darkgoldenrod;
+        color: fuchsia;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -162,7 +164,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: darkgoldenrod 3px solid; }
+    border: fuchsia 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -175,7 +177,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: darkgoldenrod 5px solid; }
+    border-bottom: fuchsia 5px solid; }
 
 .projects {
   display: grid;
@@ -183,10 +185,10 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px darkgoldenrod solid; }
+    border: 3px fuchsia solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: darkgoldenrod;
+      border-color: fuchsia;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -203,7 +205,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: darkgoldenrod;
+      background: fuchsia;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -214,7 +216,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: darkgoldenrod;
+    background: fuchsia;
     color: #000; }
 
 .btn-dark {
