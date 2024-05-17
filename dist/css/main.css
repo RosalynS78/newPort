@@ -96,6 +96,7 @@
   box-sizing: border-box; }
 
 body {
+  border-image: fill 0 linear-gradient(#000, #0001  );
   background: #444;
   color: #fff;
   height: 100%;
