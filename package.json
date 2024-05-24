@@ -6,6 +6,7 @@
   "homepage": "https://RosalynS78.github.io/newPort",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
 
