@@ -1,12 +1,10 @@
-# Build a Portfolio
-I have build a responsive website that will display images. links and description.
-This is my first portfolio project.
+# Portfolio
 
-# Files Included
+## Learning SCSS - Sassy Cascading Style Sheets
 
-* index.html
-* main.css in css folder
-* Gruntfile.js
-* img folder
-* dist folder
-* package.json
+### Differences: 
+
+Syntax:  CSS follows a plain-text syntax, whereas SCSS follows a more structured syntax with additional features such as variables, nesting, and mixins. 
+
+
+Variables: SCSS allows you to define variables to store commonly used values such as colors, font sizes, and spacing, whereas CSS does not.
